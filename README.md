@@ -1,8 +1,12 @@
 ## Crystal-Collector-Numbers-Game
 
+https://alexgood1.github.io/Crystal-Collector-Numbers-Game/
+
 Interactive Game App - dynamic HTML updates powered by JavaScript and jQuery.
 
-Technologies Used: HTML, CSS, JavaScript, jQuery, Bootstrap 4.0
+## Technologies Used
+
+HTML, CSS, JavaScript, jQuery, Bootstrap 4.0
 
 ## Instructions
 
