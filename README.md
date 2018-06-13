@@ -16,3 +16,7 @@ Alexandra Goodwin
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Screenshot
+
+![crystals-collector](https://user-images.githubusercontent.com/35353393/41324521-c9e383a8-6e69-11e8-8340-498417ba138d.jpeg)
+
