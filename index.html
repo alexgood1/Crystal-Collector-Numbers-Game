@@ -1,0 +1,124 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Crystals Collector</title>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<div class="main-wrapper-first">
+				<div class="header-wrap">
+					<div class="header-top d-flex justify-content-between align-items-center">
+						<div class="logo">
+							<a href="index.html">
+								<img src="assets/images/logo2.png" alt="" width="240" height="216">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Start Main Area -->
+		<!-- <section> -->
+		<div class="row" id="game-area">
+			<section class="main-section">
+				<div class="col-lg-12">
+					<div class="row">
+						<div class="col-md-4">
+							<h3 class="title text-center">GOAL:</h3>
+							<h2 class="text-center" id="computer-number"><span class="fa fa-question"></span></h2>
+							<h1 class="text-center" id="computer-number"></h1>
+							<br>
+							<h3>WINS:</h3>
+							<h2 class="text-center" id="wins"></h2>
+
+						</div>
+						<hr class="my-4">
+						<div class="col-md-4">
+							<h3 class="title text-center">YOUR SCORE:</h3>
+							<h2 class="text-center" id="user-number"><span class="fa fa-question"></span></h2>
+							<h1 class="text-center " id="user-number "></h1>
+							<br>
+							<h3>LOSSES:</h3>
+							<h2 class="text-center" id="losses"></h2>
+
+						</div>
+						<!-- <hr class="my-4"> -->
+						<div class="col-md-4">
+							<!-- <div class="desc"> -->
+							<h3 class="title" id="rules">GAME RULES</h3>
+							<p>You're given a Random Game Number (19 - 120) to start the game.</p>
+							<p>Click on any of the four crystals to collect points, trying to match the Random Game Number given at start. Each Crystal
+								has a secret value (1 - 12), and values are hidden until clicked.</p>
+							<p>To Win: Collect an equal amount of points to match the Random Game Number.</p>
+							<p>If your total over the amount of the Random Game Number, You Lose!</p>
+							<p>Each game has a unique Random Game Number, and the secret values of each crystal are unique to each game.</p>
+						</div>
+						<br>
+						<br>
+						<!-- <hr class="my-4"> -->
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<div class="row" id="crystals">
+					<div class="col-sm-3">
+						<button id="red-button" class="btn-sm-outline">
+							<img src="assets/images/red2.png"><h1><span class="fa fa-question"></span></h1>
+						</button>
+						<h3 class="red-number"></h3>
+					</div>
+					<div class="col-sm-3">
+						<button id="purp-button" class="btn-sm-outline">
+							<img src="assets/images/purp2.png"><h1><span class="fa fa-question"></span></h1>
+						</button>
+						<h3 class="purp-number"></h3>
+					</div>
+					<div class="col-sm-3">
+						<button id="clear-button" class="btn-sm-outline">
+							<img src="assets/images/clear2.png"><h1><span class="fa fa-question"></span></h1>
+						</button>
+						<h3 class="clear-number"></h3>
+					</div>
+						<div class="col-sm-3">
+							<button id="green-button" class="btn-smoutline">
+							<img src="assets/images/green2.png"><h1><span class="fa fa-question"></span></h1>
+							</button>
+							<h3 class="green-number"></h3>
+						</div>
+				</div>
+
+				<br>
+
+
+		</div>
+
+	</div>
+
+	</section>
+
+	<!-- <h1 class="text-center " id="computer-number "></h1> -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo
+							 " crossorigin="anonymous "></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js " integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ
+							 " crossorigin="anonymous "></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js " integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm
+							 " crossorigin="anonymous "></script>
+	<script src="assets/javascript/game.js "></script>
+	</div>
+</body>
+
+</html>
